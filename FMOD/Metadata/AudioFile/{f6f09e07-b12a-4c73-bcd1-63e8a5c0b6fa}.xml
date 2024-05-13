@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f6f09e07-b12a-4c73-bcd1-63e8a5c0b6fa}">
+		<property name="assetPath">
+			<value>Gui Bez - Dub Cycles.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>494.64287981859411</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{255cac2b-17b9-4881-8c21-2785fc173dbf}</destination>
+		</relationship>
+	</object>
+</objects>
