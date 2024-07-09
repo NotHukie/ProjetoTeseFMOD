@@ -12,7 +12,7 @@ public class MenuButton : MonoBehaviour
     }
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             SceneManager.LoadScene(0);
         }
