@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Windows;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -18,6 +18,9 @@ public class PlayerMovement : MonoBehaviour
     float horizontalInput;
     float verticalInput;
 
+    public GameObject SpeakerL;
+    public GameObject SpeakerR;
+
     Vector3 moveDirection;
 
     Rigidbody rb;
@@ -29,6 +32,13 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Destroy(SpeakerR);
+            Destroy(SpeakerL);
+            SceneManager.LoadScene(0);
+        }
+
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
         if (grounded )
