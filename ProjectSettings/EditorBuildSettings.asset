@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cisterna.unity
     guid: 2255b06c9b3415049bcdedb9bfb413c3
+  - enabled: 1
+    path: Assets/Scenes/SalaTeresaMacedo.unity
+    guid: 94ad0b7f7a9ece241ac1f86426f849f0
   m_configObjects: {}

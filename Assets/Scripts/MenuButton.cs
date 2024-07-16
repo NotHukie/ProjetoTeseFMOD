@@ -25,4 +25,8 @@ public class MenuButton : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+    public void TeresaMacedo()
+    {
+        SceneManager.LoadScene(3);
+    }
 }
